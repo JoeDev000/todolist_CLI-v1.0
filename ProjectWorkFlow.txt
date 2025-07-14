@@ -1,0 +1,23 @@
+Core
+    - Manage Tasks      [doen]
+        - Add New Task          [doen]      
+        - Delete Task           [doen]
+        - Update Task           [doen]
+        - Mark As Completed     [doen]
+        - Undo Completed        [doen]
+        - Show Active Tasks     [doen]
+        - Show Task Details     [doen]
+
+    - View Logs         [doen]
+
+    - User Analysis     [doen]
+
+    - About Me          [doen]
+
+Features (Future Dev)
+    - Multiable Users   []
+    
+    - Log In Screen     []
+
+    - Security
+        - User Info Encryption  []
