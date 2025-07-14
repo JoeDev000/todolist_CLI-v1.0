@@ -53,7 +53,7 @@ The project is modular and follows a clean OOP-based architecture. Major compone
 
 ## 🛠️ Tech Stack
 
-* Language: **C# / .NET** (CLI Application)
+* Language: **C++** (CLI Application)
 * Paradigm: **Object-Oriented Programming (OOP)**
 * Architecture: **Modular File Structure**
 
@@ -64,25 +64,36 @@ The project is modular and follows a clean OOP-based architecture. Major compone
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/yourusername/todo-cli-edition.git
+   git clone https://github.com/JoeDev000/todolist_CLI-v1.0
    ```
 
 2. **Open in Visual Studio / VS Code**
-
+   ```bash
+   cd todolist_CLI-v1.0
+   code .
+   ```
 3. **Build and Run**
 
    * Using CLI:
 
      ```bash
-     dotnet build
-     dotnet run
+     cd "src\" ; if ($?) { g++ todo_CLI.cpp -o todo_CLI } ; if ($?) { .\todo_CLI }
      ```
+note: this version runs only on windows
 
 ---
+
+## Features (Future Dev)
+    - Multiable Users
+    - Log In Screen
+    - Security
+        - User Info Encryption
+    - Support For Linux
 
 ## 🙋 About the Developer
 
 This project was developed as a personal productivity tool and learning exercise in clean architecture and OOP best practices.
+It was made from scratch, i wrote the whole code without using built-in or pre-defined methods
 
 ---
 
