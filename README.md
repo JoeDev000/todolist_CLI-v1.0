@@ -66,19 +66,15 @@ The project is modular and follows a clean OOP-based architecture. Major compone
    ```bash
    git clone https://github.com/JoeDev000/todolist_CLI-v1.0
    ```
-
-2. **Open in Visual Studio / VS Code**
-   ```bash
-   cd todolist_CLI-v1.0
-   code .
-   ```
+   
 3. **Build and Run**
 
-   * Using CLI:
-
      ```bash
+     cd todolist_CLI-v1.0
      cd ".\src\" ; if ($?) { g++ todo_CLI.cpp -o todo_CLI } ; if ($?) { .\todo_CLI }
      ```
+     or you can click at the .exe file (not recommended)
+   
 note: this version runs only on windows
 
 ---
