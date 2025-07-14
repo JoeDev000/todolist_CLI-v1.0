@@ -77,7 +77,7 @@ The project is modular and follows a clean OOP-based architecture. Major compone
    * Using CLI:
 
      ```bash
-     cd "src\" ; if ($?) { g++ todo_CLI.cpp -o todo_CLI } ; if ($?) { .\todo_CLI }
+     cd ".\src\" ; if ($?) { g++ todo_CLI.cpp -o todo_CLI } ; if ($?) { .\todo_CLI }
      ```
 note: this version runs only on windows
 
@@ -85,7 +85,9 @@ note: this version runs only on windows
 
 ## Features (Future Dev)
     - Multiable Users
+       - More than one account at the same device
     - Log In Screen
+       - Authentications
     - Security
         - User Info Encryption
     - Support For Linux
