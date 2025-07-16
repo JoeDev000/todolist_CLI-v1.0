@@ -29,29 +29,9 @@ private:
         }
     }
     
-    static void ensureDataDirectoryExists() {
-        namespace fs = std::filesystem;
-        
-        fs::path dataDir;
-        if (fs::current_path().filename() == "src") {
-            dataDir = fs::current_path().parent_path() / "datafiles";
-        } else {
-            dataDir = fs::current_path() / "datafiles";
-        }
-        
-        if (!fs::exists(dataDir)) {
-            fs::create_directories(dataDir);
-        }
-    }
-    
 public:
     static string tasks;
     static string logs;
-    
-    // Call this function in your main() to ensure data directory exists
-    static void initialize() {
-        ensureDataDirectoryExists();
-    }
 };
 
 // Initialize the static members with relative paths
